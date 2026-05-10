@@ -1,0 +1,13 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "Dioxus Starlight Documentation",
+  "description": "Official Dioxus framework documentation in Astro Starlight format",
+  "folders": ["src/content/docs"],
+  "excludeFolders": ["node_modules", "dist", ".astro", "src/components"],
+  "excludeFiles": ["CHANGELOG.md", "README.md"],
+  "rules": [
+    "Dioxus is a Rust framework for building cross-platform apps",
+    "Use RSX for JSX-like markup in Rust",
+    "Follow Dioxus signals and hooks patterns for state management"
+  ]
+}

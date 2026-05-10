@@ -1,0 +1,379 @@
+FILE: essentials\advanced\breaking-out.md
+  ISSUE: onclick: move |_| async move {
+  ISSUE: div { height: "100px",
+  ISSUE: onclick: move |_| async move {
+FILE: essentials\advanced\custom-hooks.md
+  ISSUE: consume_context()
+  ISSUE: key: impl ToString,
+  ISSUE: StorageEntry { key, value }
+  ISSUE: impl<T: Serialize + DeserializeOwned + Clone + 'static> UsePersistent<T> {
+  ISSUE: Signal { value, subscribers }
+  ISSUE: ReactiveString { inner }
+FILE: essentials\advanced\lifecycle.md
+  ISSUE: new_random_number
+  ISSUE: div { "The count is {current_count}" }
+  ISSUE: div { id: "effect-output", "This will be changed by the effect" }
+FILE: essentials\basics\async.md
+  ISSUE: onclick: move |_| async move {
+  ISSUE: message: String,
+  ISSUE: div { "Failed to fetch a dog, please try again." }
+  ISSUE: div { "Click the button to fetch a dog!" }
+FILE: essentials\basics\collections.md
+  ISSUE: title: String,
+  ISSUE: subtitle: String
+  ISSUE: title: String,
+  ISSUE: subtitle: String,
+  ISSUE: other: OtherHeaderState,
+  ISSUE: title2: String,
+  ISSUE: subtitle2: String,
+  ISSUE: title: String,
+  ISSUE: subtitle: String,
+  ISSUE: other: OtherHeaderState,
+  ISSUE: title2: String,
+  ISSUE: subtitle2: String,
+  ISSUE: name: String,
+  ISSUE: email: String,
+  ISSUE: name: String,
+  ISSUE: email: String,
+FILE: essentials\basics\context.md
+  ISSUE: title: String,
+  ISSUE: subtitle: String
+  ISSUE: ThemeProvider {
+  ISSUE: ThemeProvider {
+  ISSUE: onclick: move |_| async move {
+  ISSUE: HeaderContext {
+FILE: essentials\basics\effects.md
+  ISSUE: div { "Half count is {half_count}" }
+  ISSUE: placeholder: "Set the document title"
+  ISSUE: placeholder: "Set the document title"
+  ISSUE: IncrementButton {
+  ISSUE: child_signal
+FILE: essentials\basics\error-handling.md
+  ISSUE: Error(CapturedError),
+  ISSUE: Suspended(SuspendedFuture),
+  ISSUE: ErrorBoundary {
+  ISSUE: ThrowsError {}
+  ISSUE: ErrorBoundary {
+  ISSUE: div { "Oops, we encountered an error" }
+  ISSUE: placeholder: "Phone number",
+FILE: essentials\basics\event-handlers.md
+  ISSUE: onclick: move |event| {   // <-- our `Event` object
+  ISSUE: type: "checkbox",
+  ISSUE: placeholder: "First Name…",
+  ISSUE: onclick: move |evt| async move {
+  ISSUE: accept: ".txt,.rs",
+  ISSUE: multiple: true,
+  ISSUE: directory: true,
+  ISSUE: class: "fancy-button",
+  ISSUE: class: "fancy-button",
+  ISSUE: thread_local! {
+FILE: essentials\basics\hoisting.md
+  ISSUE: Validator { name, email }
+  ISSUE: Validator { is_valid }
+  ISSUE: Validator { is_valid }
+  ISSUE: Incrementer {
+FILE: essentials\basics\hooks.md
+  ISSUE: default_name: String
+  ISSUE: default_name: String
+FILE: essentials\basics\index.md
+  ISSUE: text: String
+FILE: essentials\basics\resources.md
+  ISSUE: message: String,
+  ISSUE: button { onclick: fetch_new, "Fetch a new dog!" }
+  ISSUE: display: "flex",
+  ISSUE: flex_direction: "row",
+  ISSUE: breed: impl Display,
+  ISSUE: Ok(response.message)
+  ISSUE: p { "Loading or error..." }
+  ISSUE: p { "Loading or error..." }
+  ISSUE: p { "Loading or error..." }
+  ISSUE: h1 { "Dog Images" }
+  ISSUE: p { "Loading or error..." }
+  ISSUE: p { "Loading or error..." }
+  ISSUE: p { "Loading or error..." }
+  ISSUE: h1 { "Dog Images" }
+FILE: essentials\basics\signals.md
+  ISSUE: onclick: move |_| async move {
+  ISSUE: onclick: move |_| async move {
+  ISSUE: do_async_work().await
+  ISSUE: onclick: move |_| async move {
+  ISSUE: onclick: move |_| async move {
+  ISSUE: drop(cur1); // dropping early asserts we can `.write()` the signal safely
+  ISSUE: IncrementButton {
+  ISSUE: child_signal
+FILE: essentials\basics\suspense.md
+  ISSUE: SuspenseBoundary {
+  ISSUE: display: "flex",
+  ISSUE: align_items: "center",
+  ISSUE: justify_content: "center",
+  ISSUE: display: "flex",
+  ISSUE: flex_direction: "column",
+  ISSUE: BreedGallery {
+  ISSUE: breed: "hound"
+  ISSUE: BreedGallery {
+  ISSUE: breed: "poodle"
+  ISSUE: BreedGallery {
+  ISSUE: breed: "beagle"
+  ISSUE: display: "flex",
+  ISSUE: flex_direction: "row",
+  ISSUE: SuspenseBoundary {
+  ISSUE: display: "flex",
+  ISSUE: align_items: "center",
+  ISSUE: justify_content: "center",
+  ISSUE: display: "flex",
+  ISSUE: flex_direction: "column",
+  ... and 10 more
+FILE: essentials\fullstack\errors.md
+  ISSUE: authenticate_user()
+  ISSUE: ErrorBoundary {
+  ISSUE: ErrorBoundary {
+FILE: essentials\fullstack\forms.md
+  ISSUE: username: String,
+  ISSUE: password: String,
+  ISSUE: onsubmit: move |evt: FormEvent| async move {
+  ISSUE: label { "Username" }
+  ISSUE: label { "Password" }
+  ISSUE: button { "Login" }
+FILE: essentials\fullstack\native.md
+  ISSUE: Ok(format!("Hello {}, you are {} years old!", name, age))
+FILE: essentials\fullstack\project-setup.md
+  ISSUE: Ok(contents)
+  ISSUE: Ok(contents)
+  ISSUE: Ok(contents)
+FILE: essentials\fullstack\publishing.md
+  ISSUE: pre_cache_static_routes_with_props(
+FILE: essentials\fullstack\server-functions.md
+  ISSUE: category: String,
+  ISSUE: request: Request,
+  ISSUE: request: ClientRequest,
+  ISSUE: req: ClientRequest,
+  ISSUE: ServerError {
+  ISSUE: message: String,
+  ISSUE: Request(RequestError),
+  ISSUE: authenticate_user()
+  ISSUE: authenticate_user()
+  ISSUE: authenticate_user()
+FILE: essentials\fullstack\streaming.md
+  ISSUE: SuspenseBoundary {
+  ISSUE: SuspenseBoundary {
+FILE: essentials\fullstack\streams.md
+  ISSUE: name: String,
+  ISSUE: h3 { "Upload as FileUpload" }
+  ISSUE: ondrop: move |evt| async move {
+FILE: essentials\fullstack\websockets.md
+  ISSUE: TextInput(String),
+  ISSUE: Uppercase(String),
+  ISSUE: name: String,
+  ISSUE: options: WebSocketOptions,
+  ISSUE: placeholder: "Type a message",
+  ISSUE: oninput: move |e| async move {
+FILE: essentials\router\index.md
+  ISSUE: Link { to: Route::About, "Go to About Page" }
+FILE: essentials\router\introduction.md
+  ISSUE: Link { to: Route::About, "Go to About Page" }
+FILE: essentials\router\layouts.md
+  ISSUE: header { "header" }
+  ISSUE: footer { "footer" }
+  ISSUE: name: String,
+  ISSUE: footer { "footer" }
+  ISSUE: name: String,
+  ISSUE: footer { "footer" }
+FILE: essentials\router\navigation.md
+  ISSUE: GoBackButton { "Back to the Past" }
+  ISSUE: GoForwardButton { "Back to the Future" }
+FILE: essentials\router\redirects.md
+  ISSUE: PageNotFound {
+FILE: essentials\router\routes.md
+  ISSUE: HelloWorld {},
+  ISSUE: name: String,
+  ISSUE: language: String,
+  ISSUE: locale: String,
+  ISSUE: name: String,
+  ISSUE: surname: String,
+  ISSUE: div { "This is your blogpost with a query segment:" }
+  ISSUE: query: String,
+  ISSUE: sort: SortOrder,
+  ISSUE: query: String,
+  ISSUE: sort: String,
+  ISSUE: name: String,
+  ISSUE: div { "This is your blogpost with a query segment:" }
+  ISSUE: section: String,
+  ISSUE: subsection: String,
+FILE: essentials\router\static-generation.md
+  ISSUE: Route::SITE_MAP
+  ISSUE: &DefaultRenderer {
+FILE: essentials\ui\attributes.md
+  ISSUE: class: "container",
+  ISSUE: id: "root-container"
+  ISSUE: type: "checkbox",
+  ISSUE: checked: true
+  ISSUE: namespace: None,
+  ISSUE: volatile: false,
+  ISSUE: button { ..attributes, "button" }
+  ISSUE: background_color: "red",
+FILE: essentials\ui\components.md
+  ISSUE: title: String,
+  ISSUE: content: String
+  ISSUE: content: String
+  ISSUE: new_tab: bool,
+  ISSUE: to: NavigationTarget,
+  ISSUE: background_color: "red",
+  ISSUE: h1 { "Lorem Ipsum Dolor" }
+FILE: essentials\ui\conditional.md
+  ISSUE: h1 { "Welcome home" }
+  ISSUE: h1 { "Welcome home" }
+  ISSUE: LoggedInScreen {}
+  ISSUE: LoggedOutScreen {}
+  ISSUE: span { "You should log in!" }
+FILE: essentials\ui\elements.md
+  ISSUE: h3 { "Brought to you by {author}" }
+FILE: essentials\ui\escape.md
+  ISSUE: namespace: None,
+  ISSUE: type: String
+  ISSUE: name: "controls",
+  ISSUE: namespace: None,
+  ISSUE: type: Boolean
+  ISSUE: onclick: move |_| async move {
+FILE: essentials\ui\hotreload.md
+  ISSUE: button { "Click me" }
+  ISSUE: class: "btn btn-primary",
+  ISSUE: id: "my-button",
+  ISSUE: title: "Click this button",
+  ISSUE: text: "Click me", // try changing the text
+  ISSUE: enabled: true, // try changing true to false!
+  ISSUE: count: 123, // or changing the number value!
+  ISSUE: class: "todo-item",
+  ISSUE: div { class: "warning", "You have many todos!" }
+FILE: essentials\ui\iteration.md
+  ISSUE: Child { count }
+FILE: essentials\ui\rsx.md
+  ISSUE: h3 { "Brought to you by {author}" }
+  ISSUE: ElementNode {
+FILE: essentials\ui\styling.md
+  ISSUE: background_color: "blue",
+  ISSUE: color: "white",
+  ISSUE: border_radius: "8px",
+  ISSUE: class: "my-component",
+  ISSUE: id: "root-component",
+  ISSUE: class: "my-component"
+  ISSUE: div { class: "flex",
+  ISSUE: span { "Class Warfare" }
+  ISSUE: span { class: "flex",
+  ISSUE: fill: "currentColor",
+  ISSUE: class: "container",
+  ISSUE: class: "container",
+FILE: guides\deploy\config.md
+  ISSUE: CurrentUser,
+  ISSUE: PerMachine,
+  ISSUE: MacOsBundle,
+  ISSUE: WindowsMsi,
+FILE: guides\platforms\desktop.md
+  ISSUE: onclick: move |_| async move {
+FILE: guides\testing\web.md
+  ISSUE: assert_rsx_eq(
+  ISSUE: div { "Hello world" }
+  ISSUE: div { "Hello world" }
+  ISSUE: div { "Hello world" }
+  ISSUE: MockAppComponent {
+  ISSUE: generation,
+FILE: guides\tips\antipatterns.md
+  ISSUE: logged_in: bool,
+  ISSUE: name: String,
+  ISSUE: email: String,
+  ISSUE: logged_in: true,
+  ISSUE: all_my_state
+  ISSUE: name: String,
+  ISSUE: PermissivePartialEq {
+  ISSUE: name: String,
+  ISSUE: DerivePartialEq {
+  ISSUE: RcPartialEq {
+FILE: guides\utilities\custom-renderer.md
+  ISSUE: AppendChildren,
+  ISSUE: CreatePlaceholder,
+  ISSUE: CreateTextNode,
+  ISSUE: HydrateText,
+  ISSUE: LoadTemplate,
+  ISSUE: ReplaceWith,
+  ISSUE: ReplacePlaceholder,
+  ISSUE: InsertAfter,
+  ISSUE: InsertBefore,
+  ISSUE: SetAttribute,
+  ISSUE: NewEventListener,
+  ISSUE: RemoveEventListener,
+  ISSUE: namespace: None,
+  ISSUE: instructions: [
+  ISSUE: LoadTemplate {
+  ISSUE: instructions: [
+  ISSUE: LoadTemplate {
+  ISSUE: HydrateText {
+  ISSUE: instructions: [
+  ISSUE: LoadTemplate {
+  ... and 4 more
+FILE: guides\utilities\eval.md
+  ISSUE: onclick: move |_| async move {
+  ISSUE: onclick: move |_| async move {
+  ISSUE: id: "my-element",
+FILE: migration\to-05-props.md
+  ISSUE: BorrowedComp {
+  ISSUE: name: String,
+  ISSUE: name: String,
+FILE: migration\to-05.md
+  ISSUE: BorrowedComp {
+  ISSUE: ManualPropsComponent {
+  ISSUE: name: String
+  ISSUE: BorrowedComp {
+  ISSUE: name: "other name"
+  ISSUE: ManualPropsComponent {
+  ISSUE: name: "other name 2"
+  ISSUE: name: String,
+  ISSUE: use_future((dependency1, dependency2,), move |(dependency1, dependency2,)| async move {
+  ISSUE: use_resource(|| async move { /*use dependency1 and dependency2*/ });
+  ISSUE: non_reactive_state + 1
+  ISSUE: ChildWithRef {}
+  ISSUE: ChildWithRef {}
+FILE: migration\to-06.md
+  ISSUE: prevent_default: "onclick",
+  ISSUE: >             // ✅ In liveview, you can use javascript to prevent default behavior
+  ISSUE: >             "Don't navigate to dioxuslabs.com"
+  ISSUE: The syntax of the `asset!` macro has changed in Dioxus 0.6. Instead of accepting a single argument with both the path and the configuration for the asset, you can now pass in the path as the first argument and the configuration as a optional second argument.
+  ISSUE: The path the `asset!` macro accepts has also changed. Previously, the macro used to accept absolute and relative paths where relative paths were relative to the current crate directory. Now the macro only accepts absolute paths which are resolved relative to the root of the crate.
+FILE: migration\to-07.md
+  ISSUE: onsubmit: |e| {}, // Forms used to automatically not submit and reload the page
+  ISSUE: onsubmit: |e| e.prevent_default(), // In dioxus 0.7 you need to call prevent_default to prevent form submission
+FILE: tutorial\backend.md
+  ISSUE: image: String,
+  ISSUE: connect_to_db(DB_PASSWORD).await
+  ISSUE: div { id: "buttons",
+  ISSUE: onclick: move |_| async move {
+FILE: tutorial\component.md
+  ISSUE: breed: String,
+FILE: tutorial\data-fetching.md
+  ISSUE: message: String,
+  ISSUE: div { id: "dogview",
+  ISSUE: div { id: "buttons",
+  ISSUE: div { id: "dogview",
+  ISSUE: div { id: "buttons",
+FILE: tutorial\databases.md
+  ISSUE: thread_local! {
+  ISSUE: id INTEGER PRIMARY KEY,
+  ISSUE: url TEXT NOT NULL
+FILE: tutorial\routing.md
+  ISSUE: DogView, // <---- a DogView component must be in scope
+  ISSUE: div { id: "title",
+  ISSUE: Favorites, // <------ add this new variant
+  ISSUE: div { id: "title",
+  ISSUE: Link { to: Route::Favorites, id: "heart", "♥️" } // <------- add this Link
+  ISSUE: div { id: "favorites",
+  ISSUE: class: "favorite-dog",
+FILE: tutorial\rsx.md
+  ISSUE: div { id: "title",
+  ISSUE: div { id: "dogview",
+  ISSUE: div { id: "buttons",
+FILE: tutorial\state.md
+  ISSUE: div { id: "title",
+  ISSUE: div { id: "dogview",
+  ISSUE: div { id: "buttons",
+  ISSUE: div { id: "buttons",
+  ISSUE: div { id: "dogview",
+
+SUMMARY: Checked 114 files, 57 files with issues, 332 total issues

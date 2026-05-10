@@ -1,0 +1,33 @@
+FILE: essentials\basics\event-handlers.md
+  ISSUE: h1 { "Счетчик дай-пять: {count}" }
+  ISSUE: onclick: move |event| {   // <-- наш объект `Event`
+FILE: essentials\basics\reactivity.md
+  ISSUE: button { onclick: move |_| selection.set("dogs"), "Установить фильтр" }
+FILE: essentials\fullstack\forms.md
+  ISSUE: label { "Имя пользователя" }
+  ISSUE: label { "Пароль" }
+  ISSUE: button { "Войти" }
+FILE: essentials\fullstack\native.md
+  ISSUE: h1 { "Сервер говорит: "}
+  ISSUE: button { onclick: move |_| message.call("world".into(), 30), "Нажми меня!" }
+  ISSUE: Ok(format!("Привет {}, тебе {} лет!", name, age))
+FILE: essentials\fullstack\streams.md
+  ISSUE: h3 { "Загрузка как FileUpload" }
+FILE: essentials\fullstack\websockets.md
+  ISSUE: placeholder: "Введите сообщение",
+FILE: essentials\ui\elements.md
+  ISSUE: h1 { "Заголовок" }
+  ISSUE: p { "Параграф текста" }
+FILE: essentials\ui\hotreload.md
+  ISSUE: text: "Click me", // попробуйте изменить текст
+  ISSUE: enabled: true, // попробуйте изменить true на false!
+  ISSUE: count: 123, // или изменить числовое значение!
+FILE: essentials\ui\rsx.md
+  ISSUE: h1 { "Добро пожаловать в Dioxus!" }
+FILE: essentials\ui\styling.md
+  ISSUE: h1 { class: "title", "Привет из CSS Modules!" }
+FILE: migration\to-07.md
+  ISSUE: onsubmit: |e| {}, // Раньше формы автоматически не отправлялись и не перезагружали страницу
+  ISSUE: onsubmit: |e| e.prevent_default(), // В dioxus 0.7 нужно вызвать prevent_default, чтобы предотвратить отправку формы
+
+SUMMARY: Checked 114 files, 11 files with issues, 20 total issues
